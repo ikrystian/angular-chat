@@ -1,0 +1,25 @@
+.modal {
+  --modal-content-background: #fafafa;
+  --modal-borders-color: #dedede;
+
+  min-width: 560px;
+  max-width: 95vw;
+
+  &__title {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: 400;
+    border-bottom: 1px solid var(--modal-borders-color);
+  }
+
+  &__content {
+    background-color: var(--modal-content-background);
+    height: 460px;
+    max-height: 70vh;
+  }
+
+  &__footer {
+    border-top: 1px solid var(--modal-borders-color);
+  }
+}
